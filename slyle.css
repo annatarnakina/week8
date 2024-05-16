@@ -1,3 +1,7 @@
 * {
     box-sizing: border-box;
 }
+
+.title {
+    @include rfs(4rem, font-size);
+}
